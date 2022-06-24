@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://thdoan.github.io/bootstrap-select/examples.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Bootstrap-select Examples</title>
+<meta name="author" content="Tom Doan">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://thdoan.github.io/bootstrap-select/css/bootstrap-select.css">
+<style>
+body { margin:2em; }
+pre { margin:1em 0; }
+select.selectpicker { display:none; /* Prevent FOUC */}
+</style>
+</head>
+<body>
+
+<form>
+
+
+  <select title="Select your surfboard" class="selectpicker" style="display: none;">
+    <option>Select...</option>
+    <option data-thumbnail="https://thdoan.github.io/bootstrap-select/images/icon-chrome.png">Chrome</option>
+    <option data-thumbnail="https://thdoan.github.io/bootstrap-select/images/icon-firefox.png">Firefox</option>
+    <option data-thumbnail="https://thdoan.github.io/bootstrap-select/images/icon-ie.png">IE</option>
+    <option data-thumbnail="https://thdoan.github.io/bootstrap-select/images/icon-opera.png">Opera</option>
+    <option data-thumbnail="https://thdoan.github.io/bootstrap-select/images/icon-safari.png">Safari</option>
+  </select>
+
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://thdoan.github.io/bootstrap-select/js/bootstrap-select.js"></script>
+<script>
+$(document).ready(function() {
+  // Initiate with custom caret icon
+  $('select.selectpicker').selectpicker({
+    caretIcon: 'glyphicon glyphicon-menu-down'
+  });
+});
+</script>
+
+
+
+</body></html>
